@@ -1,0 +1,29 @@
+.paginate {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+
+  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border: 1px solid #e3e3e3;
+    margin: 0 7px;
+    border-radius: 7px;
+    font-size: 16px;
+    color: #828282;
+    cursor: pointer;
+    &.disabled {
+      background: #6d737836;
+      color: white;
+    }
+  }
+  .active {
+    background: #0a0a0a;
+    color: #ffffff;
+  }
+}
